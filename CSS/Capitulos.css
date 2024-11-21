@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(15, 9, 24);
+}
+header{
+    background-color: rgb(5, 0, 14);
+    display: flex;
+    color: rgb(216, 0, 0);
+    gap: 20%;
+    width: 100%;
+    
+}
+#titulo{
+    padding: 2%;
+    padding-left: 8%;
+    h1{
+        font-size: x-large;
+    }
+    h2{
+        font-size: larger;
+    }
+}
+nav{
+    width: 100%;
+    display: flex;
+    gap: 15%;
+    padding: 2%;
+    padding-top: 4%;
+    font-size: large;
+    
+    a{
+        text-decoration: none;
+        color: aliceblue;
+        transition: 200ms;
+    }
+    a:hover{
+        scale: 1.2;
+        color: rgb(78, 2, 2);
+    }
+}
+
+
+main{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+section{
+    width: 65%;
+    border: solid rgb(7, 1, 17);
+    border-radius: 10px;
+    background-color: rgb(6, 0, 37);
+    color: ghostwhite;
+    font-size: larger;
+    
+
+}
+.Heartslabyul{
+    background-color: crimson;
+    color: ghostwhite;
+    border: solid darkred;
+}
+.Savanaclaw{
+    background-color: rgb(253, 216, 52);
+    border: solid rgb(163, 112, 0);
+    color: black;
+}
+.Octavinelle{
+    background-color: rgb(174, 148, 197);
+    border: solid rgb(88, 47, 129);
+    color: rgb(20, 4, 34);
+}
+.Scarabia{
+    background-color: rgb(63, 0, 0);
+    border: solid rgb(15, 3, 3);
+    color: goldenrod;
+}
+.Pomefiore{
+    background-color: rgb(1, 0, 73);
+    border: solid  rgb(44, 0, 0);
+    color: antiquewhite;
+}
+.Ignihyde{
+    background-color: rgb(2, 171, 223);
+    border: solid  rgb(0, 27, 36);
+    color: black;
+}
+.Diasomnia{
+    background-color: rgb(3, 107, 9);
+    border: solid rgb(4, 44, 2);
+    color: black;
+}

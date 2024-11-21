@@ -1,0 +1,23 @@
+body{
+    font-family: monospace;
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(255, 197, 252);
+    max-width: 200px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    gap: 5px;
+}
+h1{
+    text-align: center;
+ 
+}
+#Enviar{
+    background-color: hotpink;
+    border: 0px;
+    border-radius: 2px;
+}
